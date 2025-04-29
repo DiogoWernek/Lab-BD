@@ -12,8 +12,6 @@ body {
 }
 
 @theme {
-  ----default-font-family: "Open Sans", sans-serif;
-
   --color-red-50: #C1292E;
   --color-brown-50: #5A352A;
   --color-beige-50: #FFECD1;
