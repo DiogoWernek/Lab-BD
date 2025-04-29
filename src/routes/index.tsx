@@ -1,10 +1,11 @@
-import { Routes, Route } from "react-router";
-import { Home } from "../pages/home";
+import { Route, Routes } from "react-router";
+import { Home } from "../pages/Home";
 
 export function MyRoutes() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/" index element={<Home />} />
+      <Route path="/details/:id" element={<Home />} />
     </Routes>
   );
 }
